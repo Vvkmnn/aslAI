@@ -1,14 +1,12 @@
 # recognizerAI
 
 
-Another [AIND](https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889) project, that uses American Sign Language data from Boston University to a **Hidden Markov Machine (HMM)**, leveraging our understanding of **Probabilistic Models**, **Bayesian Networks**, and **Statistics**:  
+[![](http://www.bu.edu/asllrp/SignStream/screenshots/ss2-screen.gif)](http://www-i6.informatik.rwth-aachen.de/~dreuw/download/021.avi)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/HiddenMarkovModel.svg/300px-HiddenMarkovModel.svg.png)
+Another [AIND](https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889) project, that uses American Sign Language data from Boston University to a **Hidden Markov Machine (HMM)**, leveraging our understanding of **Probabilistic Models**, **Bayesian Networks**, and **Statistics**:  
 
 
 ## Data 
-
-![](http://www.bu.edu/asllrp/SignStream/screenshots/ss2-screen.gif)
 
 The data in the `data/` directory was derived from 
 the [RWTH-BOSTON-104 Database](http://www-i6.informatik.rwth-aachen.de/~dreuw/database-rwth-boston-104.php). 
@@ -25,9 +23,7 @@ to see how the hand locations are tracked.
 
 The videos are sentences with translations provided in the database.  
 For purposes of this project, the sentences have been pre-segmented into words 
-based on slow motion examination of the files.  
-These segments are provided in the `train_words.csv` and `test_words.csv` files
-in the form of start and end frames (inclusive).
+based on slow motion examination of the files. These segments are provided in the `train_words.csv` and `test_words.csv` files in the form of start and end frames (inclusive)
 
 The videos in the corpus include recordings from three different ASL speakers.
 The mappings for the three speakers to video are included in the `speaker.csv` 
