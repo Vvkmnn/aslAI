@@ -7,8 +7,7 @@ from hmmlearn.hmm import GaussianHMM
 from sklearn.model_selection import KFold
 from asl_utils import combine_sequences
 
-# Warnings
-warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore") # Supress Warnings
 
 class ModelSelector(object):
     '''
