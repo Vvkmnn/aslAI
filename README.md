@@ -11,7 +11,9 @@ Another [AIND](https://www.udacity.com/course/artificial-intelligence-nanodegree
 The data in the `data/` directory was derived from 
 the [RWTH-BOSTON-104 Database](http://www-i6.informatik.rwth-aachen.de/~dreuw/database-rwth-boston-104.php). 
 The handpositions (`hand_condensed.csv`) are pulled directly from 
-the database [boston104.handpositions.rybach-forster-dreuw-2009-09-25.full.xml](boston104.handpositions.rybach-forster-dreuw-2009-09-25.full.xml). The three markers are:
+the database [boston104.handpositions.rybach-forster-dreuw-2009-09-25.full.xml](boston104.handpositions.rybach-forster-dreuw-2009-09-25.full.xml)
+
+The three markers are:
 
 *   0  speaker's left hand
 *   1  speaker's right hand
@@ -48,7 +50,7 @@ It is highly recommended that you install the [Anaconda](http://continuum.io/dow
 pip install git+https://github.com/hmmlearn/hmmlearn.git
 ```
 
-## Run
+## Model
 
 They entire approach is explored in the notebook `asl_recognizer.ipynb`, with additional support from other modules in the directory (especially `my_model_selectors.py`).
 
